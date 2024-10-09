@@ -1,0 +1,8 @@
+plt.figure(figsize=(10, 6))
+sns.scatterplot(data=merged_df, x='silence_percent_average', y='average_sentiment', hue='primary_call_reason', palette="Spectral", alpha=0.7)
+plt.title('Silence Percent vs Average Sentiment (Colored by Call Reason)')
+plt.xlabel('Silence Percentage')
+plt.ylabel('Average Sentiment')
+plt.legend(bbox_to_anchor=(1.05, 1), loc='upper left')
+plt.tight_layout()
+plt.show()

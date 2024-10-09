@@ -1,0 +1,8 @@
+plt.figure(figsize=(12, 6))
+mean_sentiment_per_reason = merged_df.groupby('primary_call_reason')['average_sentiment'].mean().sort_values(ascending=False)
+sns.barplot(x=mean_sentiment_per_reason.values, y=mean_sentiment_per_reason.index, palette="magma")
+plt.title('Average Sentiment per Call Reason')
+plt.xlabel('Average Sentiment')
+plt.ylabel('Primary Call Reason')
+plt.tight_layout()
+plt.show()

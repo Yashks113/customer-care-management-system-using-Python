@@ -1,0 +1,7 @@
+plt.figure(figsize=(10, 6))
+sns.heatmap(pd.crosstab(merged_df['agent_tone'], merged_df['customer_tone']), annot=True, cmap="YlGnBu", fmt="d", linewidths=.5)
+plt.title('Agent Tone vs Customer Tone')
+plt.xlabel('Customer Tone')
+plt.ylabel('Agent Tone')
+plt.tight_layout()
+plt.show()
