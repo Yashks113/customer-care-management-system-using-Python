@@ -106,4 +106,13 @@ o	7-10% overall reduction in AHT.
 4.	Expand IVR for Simple Inquiries:
 o	10-15% reduction in call volumes, improving AST and agent availability.
 5.	Address Call Abandonment:
+o	20-30% reduction in abandonment rates for high-AST calls.
+o	10-15% reduction in overall AST.
+6.	Improve Sentiment by Addressing Silence & AST:
+o	1-2 point improvement in sentiment scores.
+o	5-10% improvement in customer satisfaction.
+________________________________________
+Conclusion:
+By implementing these data-driven solutions, United Airlines can achieve measurable improvements in its call center metrics. This will lead to lower AHT, reduced AST, and overall better customer satisfaction, ensuring more efficient operations and a higher quality of service for passengers.
+
 
